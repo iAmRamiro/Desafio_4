@@ -1,6 +1,7 @@
 import express from "express";
 import { engine } from "express-handlebars";
-import { __dirname } from "./utils/utils.js";
+import { __dirname } from "./dirname.js";
+import { join } from "path";
 import homeRouter from "./routes/home.router.js";
 
 const app = express();
@@ -11,7 +12,8 @@ app.use(express.static(__dirname + "/public"));
 
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
-app.set("views", __dirname + "/views");
+app.set("views", join(__dirname, "views"));
+console.log(join(__dirname, "views"));
 
 app.use("/api", homeRouter);
 
