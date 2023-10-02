@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "Celular",
+    "description": "Celular Iphone",
+    "price": 2051,
+    "thumbnails": "url",
+    "code": 303,
+    "stock": 5,
+    "category": "Tecnologia"
+  },
+
+  {
+    "id": 2,
+    "title": "Teclado RedDragon Kumara",
+    "description": "Teclado Mecanico",
+    "price": 2051,
+    "thumbnails": "url",
+    "code": 353,
+    "stock": 5,
+    "category": "Tecnologia"
+  },
+  {
+    "id": 3,
+    "title": "Mouse",
+    "description": "Mouse RedDragon",
+    "price": 264,
+    "thumbnails": "url",
+    "code": 652,
+    "stock": 10,
+    "category": "Tecnologia"
+  },
+
+  {
+    "id": 4,
+    "title": "Mouse Pad",
+    "description": "Mouse Pad RedDragon",
+    "price": 264,
+    "thumbnails": "url",
+    "code": 852,
+    "stock": 4,
+    "category": "Tecnologia"
+  },
+  {
+    "id": 5,
+    "title": "Play Station 5 ",
+    "description": "la mejor del mercado",
+    "price": 2051,
+    "thumbnails": "url",
+    "code": 301,
+    "stock": 5,
+    "category": "Tecnologia"
+  },
+  {
+    "id": 6,
+    "title": "Tv 24 pulgadas",
+    "description": "Tv 24 pulgadas samsung",
+    "price": 2051,
+    "thumbnails": "url",
+    "code": 303,
+    "stock": 5,
+    "category": "electrodomestico"
+  }
+]

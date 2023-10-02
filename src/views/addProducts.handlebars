@@ -1,0 +1,108 @@
+<div class="container">
+
+  <h1 class="text-danger text-lg text-uppercase text-center mt-4 mb-4">Add
+    Product</h1>
+
+  <form id="form">
+
+    <div class="d-flex gap-3">
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="price" class="form-label">Price</label>
+        <input
+          min="0"
+          type="number"
+          class="form-control"
+          id="price"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="code" class="form-label">Code</label>
+        <input
+          maxlength="12"
+          minlength="8"
+          type="text"
+          class="form-control"
+          id="code"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="stock" class="form-label">stock</label>
+        <input
+          min="0"
+          type="number"
+          class="form-control"
+          id="stock"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="category" class="form-label">Category</label>
+        <input
+          maxlength="12"
+          minlength="8"
+          type="text"
+          class="form-control"
+          id="category"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+      <div class="mb-3">
+        <label for="thumbnails" class="form-label">Thumbnails</label>
+        <input
+          type="url"
+          class="form-control"
+          id="thumbnails"
+          aria-describedby="emailHelp"
+          required
+        />
+
+      </div>
+
+    </div>
+
+    <button
+      type="submit"
+      class="btn btn-primary mr-10"
+      id="addProduct"
+    >Add</button>
+    <a href="/products" class="btn btn-secondary">Show all Products</a>
+  </form>
+</div>
